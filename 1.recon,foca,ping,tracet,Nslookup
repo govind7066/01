@@ -1,0 +1,53 @@
+i-Recon-ng (Using Kali Linux) 
+1- Run the Application Recon-ng or open the terminal of Kali-Linux and type recon-ng and hit enter.
+2- Enter the command “marketplace install” all installs the modules workspaces. 
+Now, enter command “marketplace install hackertarget” & “marketplace load hackertarget” to 
+get module named hackertarget loaded.
+ 
+3- Set the source by giving the url of the company whose information you have to 
+fetch. Enter command “options set SOURCE tesla.com” 
+Now enter command “info” & then “input”. 
+ 
+4- Now, enter the “run” command to get the detail regarding Ip Address. 
+5- Enter command “show hosts” to get the details of the hosts.
+6- Enter command “marketplace search” to get module details.
+7- Type the “help” command 
+
+
+ii. FOCA Tool  
+1- Download the software FOCA from https://www.elevenpaths.com. Now,Go to Project > New 
+Project.
+2- Now, Enter the Project Name, Domain Website, Alternate Website (if required), Directory to 
+save the results, Project Date. Click Create to proceed. 
+3- Select the Search Engines, Extensions, and other parameters as required. Click on Search All 
+Button.
+4 -Once Search completes, the search box shows multiple files. You can select the file, download 
+it, Extract Metadata, and gather other information like username, File creation date, and 
+Modification
+
+• Ping 
+2 -Enter the command “ Ping example.com ” to ping.
+4- Now, Enter the command “ Ping example.com –f –l 1500 ” to check the value of
+                                                                   
+• Tracert using Ping 
+Enter the command “Tracert example.com” to trace the target. 
+10.0.0.1 is the first hop, which means it is the gateway. Tracert result of 200.100.50.3 
+shows, 200.100.50.3 is another interface of first hop device whereas connected IP 
+includes 200.100.50.2 & 200.100.50.1.
+192.168.0.254 is next to last hop 10.0.0.1. It can either connected to 200.100.50.1 or 
+200.100.50.2. To verify, trace next route. 
+192.168.0.254 is another interface of the network device, i.e. 200.100.50.1 connected 
+next to 10.0.0.1. 192.168.0.1, 192.168.0.2 & 192.168.0.3 are connected directly to 
+192.168.0.254. 
+
+• DNS Zone Transfer Enumeration Using NSLookup 
+1. Go to Windows command line (CMD) and enter Nslookup and press Enter.                                                                   
+2. Command prompt will proceed to " > " symbol. 
+3. Enter " server <DNS Server Name> " or " server <DNS Server Address> ". 
+4. Enter set type=any and press Enter. It will retrieve all records from a DNS server. 
+5. Enter ls -d <Domain> this will display the information from the target domain (if 
+allowed)
+6. If not allowed, it will show the request failed. 
+7. Linux support dig command, At a command prompt enter dig <domain.com> axfr.                                                                                   
+
+                                                                   
