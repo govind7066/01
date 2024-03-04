@@ -1,0 +1,52 @@
+copier tool
+1- Download and Install the WinHTTrack Website Copier Tool from the website 
+http://www.httrack.com. You can check the compatibility of HTTrack Website copier tool on 
+different platforms such as Windows, Linux, and Android from the website.
+2- HTTrack Website Copier tool installation. 
+3- Enter a Project name, as in our case, Testing_Project.
+4- Click on Set Options button. 
+5- Go to Scan Rules Tab and Select options as required.
+6- Enter the Web Address in the field and Click Next. 
+7- Click Next 8- Click Browse Mirrored Website. 
+9- Select your favorite web browser. 
+Observed the above output. Example.com website is copied into a local directory and 
+browsed from there. Now you can explore the website in an offline environment for the 
+structure of the website and other parameters. 
+To make sure, compare the website to the original example.com website. Open a new 
+tab and go to URL example.com. 
+
+v... Metasploit (for information gathering) 
+Topology Information: In this lab, we are running Metasploit Framework on a private network 
+10.10.50.0/24 where different hosts are live including Windows 7, Kali Linux, 
+Windows Server 2016 and others. 
+1- Open Kali Linux and Run Metasploit Framework. 
+creating database user 'msf'
+enter password
+msf>db_status
+msf>nmap -Pn -sS -A -oX Test 10.10.50.0/24
+msf>db_import Test
+msf>db_nmap -sS -A 10.10.50.211
+msf>services
+msf>use scanner/smb/smb_version
+msf auxiliary(scanner/smb/smb_version)>show options
+msf auxiliary(scanner/smb/smb_version)>set RHOSTS 10.10.50.100-211
+msf auxiliary(scanner/smb/smb_version)>set THREADS 100
+msf auxiliary(scanner/smb/smb_version)>show options
+Observe the OS_Flavor field. SMB scanning scans for Operating System Flavor for 
+the RHOST range configured. 
+
+whois Lookup
+1. Go to the URL https://www.whois.com/
+2. A search of Target Domain 
+You can go to https://whois.domaintools.com can enter the targeted URL for whois 
+lookup information 
+
+
+viii. eMailTracker Pro 
+Click on Trace Headers/Trace email address and enter the Message Header and click 
+Okay. The Status of the Trace will be shown inside Trace Reports 
+
+
+
+
+
