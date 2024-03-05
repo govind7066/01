@@ -1,0 +1,23 @@
+wireshark to sniff the network
+Start Wireshark. Under the “Capture” header, select the “Interface List” 
+option; or click on the “Interfaces” button on the toolbar:
+Select the network adapter (wired or wireless) that you are currently using to 
+connect to the Internet, and hit the “Start” button
+Open your web browser and navigate to a few random web pages - observe 
+that the network packets corresponding to your web browsing activity are 
+captured and show up in Wireshark as well.
+ press the stop capture button. Do not close this capture session. 
+In the filter toolbar, type “http” and then click on “Apply”
+ In your web browser, navigate to     some   webpage like 
+http://wwwscf.usc.edu/~csci571/Special/HTTP/proxy.html. 
+• In the top frame of the Wireshark main window, look for the packet that 
+corresponds to your request. This contains the URL in the “Info” section. Select 
+this packet. 
+• In the middle frame of the Wireshark window, expand the “Hypertext Transfer 
+Protocol” section. Notice the details given for the: 
+o   GET request o Host o User-Agent 
+o Accepts o cookie o etc 
+In the top frame of the Wireshark main window, find and select the “HTTP/1.1 200 
+OK” packet immediately below the request for proxy.html. This is the response 
+containing the requested web page. 
+Again, expand the “Hypertext Transfer Protocol” section.
