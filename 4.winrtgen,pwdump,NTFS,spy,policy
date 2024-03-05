@@ -1,0 +1,67 @@
+i. Winrtgen 
+Click on “Add Table“. After this, 
+"a new box will appear named “Rainbow Table Properties” 
+In the “Rainbow Table Properties” window we have the option to modify settings in 
+order to generate rainbow tables according to our needs. The following properties can be 
+modified: 
+• Hash: The type of encryption we want the rainbow table to be generated. For 
+example MD5, MD4, SHA1, etc. "
+click on “Benchmarks
+ click on “Ok”. This will add the Rainbow Table to the queue in the 
+main window of WinRTGen  
+After this click on “Rainbow Table” You want to start processing and click “OK” . 
+This table will be saved to your WinRTGen Directory.
+
+iv. NTFS Stream Manipulation  
+Open the terminal and type the following command to create a 
+. echo "this is file no 1" > file_1.txt 
+command to write  echo "this is a hidden file inside the file_1.txt" > file_1.txt:secret.txt 
+ enter dir
+ The following command 
+notepad file_1.txt:secret.txt 
+The following command  
+C:\test>type Trojan.exe > note.txt:Trojan.exe 
+Here type command is used to hide trojan in the ADS inside an existing file.  
+C:\test>mklink game.exe note.txt:Trojan.exe 
+Type game.exe to run the trojan that is hidden behind the note.txt. Here, game.exe is the 
+shortcut created to launch trojan.exe. 
+
+V. ADS Spy
+As we store the file in the Document folder, Selecting Document folder to scan 
+particular folder only. 
+Select an Option, if you want to scan for ADS, click “Scan the system for ADS”/ or 
+click removes button to remove the file ‘
+
+snow
+Create a text file with some data in the same directory where Snow Tool is installed
+Go to Command Prompt 
+Change the directory to run Snow tool 
+Type the command 
+Snow –C –m “text to be hide” –p “password” <Sourcefile> <Destinationfile>
+using the command 
+Snow –C –p “password123” HelloWorld.txt
+
+vii. Quickstego 
+Image Steganography using QuickStego 
+1. Open QuickStego Application
+2. Upload an Image. This Image is term as Cover, as it will hide the text.
+3. Enter the Text or Upload Text File
+4. Click Hide Text Button 
+5. Save Image 
+This Saved Image containing Hidden information is termed as Stego Object.  
+Recovering Data from Image Steganography using QuickStego 
+1. Open QuickStego 
+2. Click Get Text 
+3. Open and Compare Both Images 
+Left Image is without Hidden Text; Right Image is with hidden text 
+
+viii. Clearing Audit Policies  
+commands 
+C:\Windows\system32> auditpol /?
+C:\Windows\system32>auditpol /set /category:"System","Account logon" /success:enable /failure:enable 
+C:\Windows\system32>auditpol logon","System"/get /category:"Account 
+C:\Windows\system32>auditpol /clear 
+Are you sure (Press N to cancel or any other key to continue)?Y 
+C:\Windows\system32>auditpol /get /category:"Account logon","System" 
+
+
