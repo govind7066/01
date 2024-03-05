@@ -1,0 +1,16 @@
+ nmap -O<ip address>
+
+
+NetBios
+cmd--
+nbtstat -a enter
+nbtstat -a 'ip'enter
+nbtstat -c enter
+net use enter
+
+tool--
+ip enter (10.10.1.15 to 10.10.1.100)
+
+parrot os--
+nmap -sV -v --script nbstat ip (10.10.1.22)
+nmap -sU -p 137 --script nbstats.nse ip (10.10.1.22)
