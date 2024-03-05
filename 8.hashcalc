@@ -1,0 +1,32 @@
+Hashcalc
+1. Open HashCalc tool.
+2. Create a new file with some content in it as shown below.
+3. Select Data Format as “File” and upload your file 
+4. Select Hashing Algorithm and Click Calculate 
+5. Now Select the Data Format to “Text String” and Type “IPSpecialist…” into Data 
+filed and calculated MD5. 
+  MD5 Calculated for the text string “IPSpecialist…” is 
+“a535590bec93526944bd4b94822a7625” 
+6. Now, let's see how MD5 value is changed from minor change.
+  Just lowering the case of single alphabet changes entire hashing value. MD5 Calculated for the 
+text string “IPspecialist…” is “997bd71ad0158de71f6e97a57261b9a7” 
+
+ii. Advanced Encryption Package
+2. Select the File you want to Encrypt. 
+3. Set password 
+4. Select Algorithm
+5. Click Encrypt 
+6. Compare both Files
+7. Now, After forwarding it to another PC, in our case, in Windows 10 PC, decrypting it 
+using Advanced Encryption package 2017. 
+8. Enter password 
+9. File Successfully decrypted. 
+
+ iii. CrypTool 
+  Go to file and click on New
+Click on Caesar
+The Encrypt it 
+Now again click on Caesar and and enter the key entry numeric value that was choosen at the time 
+of encryption to decrypt. 
+  Now will try for Hill, here we are using SBCM as key 
+
